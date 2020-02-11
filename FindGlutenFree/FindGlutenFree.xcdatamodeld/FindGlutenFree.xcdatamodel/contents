@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1004" minimumToolsVersion="Automatic">
+    <entity name="Resturants" syncable="YES">
+        <attribute name="glutenFreeFeatures" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceRange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantAdress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantFacebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantGooglePlus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantLon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantTwitter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resturantZip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Resturants" positionX="-63" positionY="-18" width="128" height="300"/>
+    </elements>
 </model>

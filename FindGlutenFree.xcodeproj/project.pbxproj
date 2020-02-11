@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84328B0D1E28EB5E00A8B8D3 /* caffe.png in Resources */ = {isa = PBXBuildFile; fileRef = 84328B0C1E28EB5E00A8B8D3 /* caffe.png */; };
+		84328B0F1E28EDB400A8B8D3 /* pub.png in Resources */ = {isa = PBXBuildFile; fileRef = 84328B0E1E28EDB400A8B8D3 /* pub.png */; };
 		845860B01D898048006FADB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845860AF1D898048006FADB0 /* AppDelegate.swift */; };
 		845860B21D898048006FADB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845860B11D898048006FADB0 /* ViewController.swift */; };
 		845860B51D898048006FADB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845860B31D898048006FADB0 /* Main.storyboard */; };
 		845860B81D898048006FADB0 /* FindGlutenFree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845860B61D898048006FADB0 /* FindGlutenFree.xcdatamodeld */; };
 		845860BA1D898048006FADB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845860B91D898048006FADB0 /* Assets.xcassets */; };
 		845860BD1D898048006FADB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845860BB1D898048006FADB0 /* LaunchScreen.storyboard */; };
+		845860C51D89845E006FADB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845860C41D89845E006FADB0 /* CoreLocation.framework */; };
+		846757841DE759C700DAEBA1 /* AddResturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846757831DE759C700DAEBA1 /* AddResturantViewController.swift */; };
+		846757861DECBDC100DAEBA1 /* help_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 846757851DECBDC100DAEBA1 /* help_icon.png */; };
+		8467578A1DECC1BF00DAEBA1 /* gps_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 846757891DECC1BF00DAEBA1 /* gps_home.png */; };
+		84B2ADD61D902CDE00D86A48 /* orange_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2ADD51D902CDE00D86A48 /* orange_marker.png */; };
+		84D0C4031D9D9C63009147FC /* orange_marker_32p.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C4021D9D9C63009147FC /* orange_marker_32p.png */; };
+		84D0C4061D9FF2C3009147FC /* resturant.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C4051D9FF2C3009147FC /* resturant.png */; };
+		84D0C4081DAE6323009147FC /* ReturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0C4071DAE6323009147FC /* ReturantViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84328B0C1E28EB5E00A8B8D3 /* caffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caffe.png; sourceTree = "<group>"; };
+		84328B0E1E28EDB400A8B8D3 /* pub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pub.png; sourceTree = "<group>"; };
 		845860AC1D898048006FADB0 /* FindGlutenFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindGlutenFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845860AF1D898048006FADB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845860B11D898048006FADB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		845860B91D898048006FADB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845860BC1D898048006FADB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845860BE1D898048006FADB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845860C41D89845E006FADB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		846757831DE759C700DAEBA1 /* AddResturantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddResturantViewController.swift; sourceTree = "<group>"; };
+		846757851DECBDC100DAEBA1 /* help_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_icon.png; sourceTree = "<group>"; };
+		846757891DECC1BF00DAEBA1 /* gps_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps_home.png; sourceTree = "<group>"; };
+		84B2ADD51D902CDE00D86A48 /* orange_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_marker.png; sourceTree = "<group>"; };
+		84D0C4021D9D9C63009147FC /* orange_marker_32p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_marker_32p.png; sourceTree = "<group>"; };
+		84D0C4051D9FF2C3009147FC /* resturant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resturant.png; sourceTree = "<group>"; };
+		84D0C4071DAE6323009147FC /* ReturantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturantViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845860C51D89845E006FADB0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,7 @@
 		845860A31D898048006FADB0 = {
 			isa = PBXGroup;
 			children = (
+				845860C41D89845E006FADB0 /* CoreLocation.framework */,
 				845860AE1D898048006FADB0 /* FindGlutenFree */,
 				845860AD1D898048006FADB0 /* Products */,
 			);
@@ -56,15 +78,32 @@
 		845860AE1D898048006FADB0 /* FindGlutenFree */ = {
 			isa = PBXGroup;
 			children = (
+				84D0C4041D9FF2B4009147FC /* images */,
 				845860AF1D898048006FADB0 /* AppDelegate.swift */,
 				845860B11D898048006FADB0 /* ViewController.swift */,
+				84D0C4071DAE6323009147FC /* ReturantViewController.swift */,
 				845860B31D898048006FADB0 /* Main.storyboard */,
+				846757831DE759C700DAEBA1 /* AddResturantViewController.swift */,
 				845860B91D898048006FADB0 /* Assets.xcassets */,
 				845860BB1D898048006FADB0 /* LaunchScreen.storyboard */,
 				845860BE1D898048006FADB0 /* Info.plist */,
 				845860B61D898048006FADB0 /* FindGlutenFree.xcdatamodeld */,
 			);
 			path = FindGlutenFree;
+			sourceTree = "<group>";
+		};
+		84D0C4041D9FF2B4009147FC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84328B0E1E28EDB400A8B8D3 /* pub.png */,
+				84328B0C1E28EB5E00A8B8D3 /* caffe.png */,
+				846757891DECC1BF00DAEBA1 /* gps_home.png */,
+				846757851DECBDC100DAEBA1 /* help_icon.png */,
+				84D0C4021D9D9C63009147FC /* orange_marker_32p.png */,
+				84B2ADD51D902CDE00D86A48 /* orange_marker.png */,
+				84D0C4051D9FF2C3009147FC /* resturant.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,10 +134,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Admin;
+				ORGANIZATIONNAME = FindGlutenFree;
 				TargetAttributes = {
 					845860AB1D898048006FADB0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HVE3KMCE33;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -126,7 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				845860BD1D898048006FADB0 /* LaunchScreen.storyboard in Resources */,
+				84328B0F1E28EDB400A8B8D3 /* pub.png in Resources */,
+				8467578A1DECC1BF00DAEBA1 /* gps_home.png in Resources */,
+				846757861DECBDC100DAEBA1 /* help_icon.png in Resources */,
+				84B2ADD61D902CDE00D86A48 /* orange_marker.png in Resources */,
 				845860BA1D898048006FADB0 /* Assets.xcassets in Resources */,
+				84D0C4031D9D9C63009147FC /* orange_marker_32p.png in Resources */,
+				84D0C4061D9FF2C3009147FC /* resturant.png in Resources */,
+				84328B0D1E28EB5E00A8B8D3 /* caffe.png in Resources */,
 				845860B51D898048006FADB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +189,8 @@
 				845860B21D898048006FADB0 /* ViewController.swift in Sources */,
 				845860B01D898048006FADB0 /* AppDelegate.swift in Sources */,
 				845860B81D898048006FADB0 /* FindGlutenFree.xcdatamodeld in Sources */,
+				846757841DE759C700DAEBA1 /* AddResturantViewController.swift in Sources */,
+				84D0C4081DAE6323009147FC /* ReturantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +234,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Peter Froberg (72WZ3M44C4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -229,7 +279,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Froberg (72WZ3M44C4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -253,10 +303,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HVE3KMCE33;
 				INFOPLIST_FILE = FindGlutenFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Fro-berg.FindGlutenFree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,10 +321,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HVE3KMCE33;
 				INFOPLIST_FILE = FindGlutenFree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Fro-berg.FindGlutenFree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -290,6 +354,7 @@
 				845860C31D898048006FADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
